@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.upper-site {
+    background-color: #f5ba13;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0px;
+    padding: 0.1rem 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/* Author Name Styling */
+
+.authorName {
+    position: absolute;
+    right: 3rem;
+    top: 0.4rem;
+}
+
+.authorLink,
+.projectTitle,
+.sourceLink:link {
+    text-decoration: none;
+}
+
+.authorLink:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.authorLink:hover {
+    color: tomato;
+}
+
+
+/* Project Title Styling */
+
+.projectTitle {
+    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.projectTitle:hover {
+    color: tomato;
+}
+
+.projectTitle,
+.sourceLink:visited {
+    text-decoration: none;
+    color: rgb(7, 107, 94);
+}
+
+
+/* Project's Description Styling */
+
+p {
+    font-size: 1.5rem;
+    word-spacing: 2px;
+    color: rgb(6, 40, 51);
+}
+
+.sourceLink:hover {
+    color: tomato;
+}
+
+
+/* Source Code Link Styling */
+
+.sourceLink {
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Contact Me Styling */
+
+.contactHeader {
+    font-size: 2.5rem;
+    text-align: center;
+    /* margin-top: 10rem; */
+}
+
+
+/* Footer Styling */
+
+.lower-site {
+    background-color: #f5ba13;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 4rem;
+    padding: 1rem 0;
+}
+
+.footer {
+    color: #fff;
+}
+
+
+/* Contact section
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+}
+
+.contact-section-header>h2 {
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact-section-header>p {
+    font-style: italic;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+    transform: translateY(8px);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+
+/* Footer */
+
+
+/* :root {
+    --main-white: #f0f0f0;
+    --main-green: #03775e;
+    --main-blue: #1a1522;
+    --main-gray: #303841;
+}
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: #303841;
+    border-top: 4px solid var(--main-red);
+}
+
+footer>p {
+    margin: 2rem;
+}
+
+footer i {
+    vertical-align: middle;
+} */
